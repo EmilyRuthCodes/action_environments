@@ -1,0 +1,93 @@
+{
+    "StackEvents": [
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:781430106937:stack/udatest/fde229a0-5018-11f0-aa8d-0affd52ea213",
+            "EventId": "604ed930-5019-11f0-b9e0-0affc28b37a7",
+            "StackName": "udatest",
+            "LogicalResourceId": "udatest",
+            "PhysicalResourceId": "arn:aws:cloudformation:us-east-1:781430106937:stack/udatest/fde229a0-5018-11f0-aa8d-0affd52ea213",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2025-06-23T10:03:56.858000+00:00",
+            "ResourceStatus": "ROLLBACK_COMPLETE"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:781430106937:stack/udatest/fde229a0-5018-11f0-aa8d-0affd52ea213",
+            "EventId": "UdaBucket-DELETE_COMPLETE-2025-06-23T10:03:56.543Z",
+            "StackName": "udatest",
+            "LogicalResourceId": "UdaBucket",
+            "PhysicalResourceId": "uda-iye-bucket",
+            "ResourceType": "AWS::S3::Bucket",
+            "Timestamp": "2025-06-23T10:03:56.543000+00:00",
+            "ResourceStatus": "DELETE_COMPLETE",
+            "ResourceProperties": "{\"BucketName\":\"uda-iye-bucket\",\"WebsiteConfiguration\":{\"IndexDocument\":\"index.html\",\"ErrorDocument\":\"error.html\"}}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:781430106937:stack/udatest/fde229a0-5018-11f0-aa8d-0affd52ea213",
+            "EventId": "UdaBucket-DELETE_IN_PROGRESS-2025-06-23T10:03:55.254Z",
+            "StackName": "udatest",
+            "LogicalResourceId": "UdaBucket",
+            "PhysicalResourceId": "uda-iye-bucket",
+            "ResourceType": "AWS::S3::Bucket",
+            "Timestamp": "2025-06-23T10:03:55.254000+00:00",
+            "ResourceStatus": "DELETE_IN_PROGRESS",
+            "ResourceProperties": "{\"BucketName\":\"uda-iye-bucket\",\"WebsiteConfiguration\":{\"IndexDocument\":\"index.html\",\"ErrorDocument\":\"error.html\"}}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:781430106937:stack/udatest/fde229a0-5018-11f0-aa8d-0affd52ea213",
+            "EventId": "5e3e21a0-5019-11f0-81cb-0e76cdf004ef",
+            "StackName": "udatest",
+            "LogicalResourceId": "udatest",
+            "PhysicalResourceId": "arn:aws:cloudformation:us-east-1:781430106937:stack/udatest/fde229a0-5018-11f0-aa8d-0affd52ea213",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2025-06-23T10:03:53.391000+00:00",
+            "ResourceStatus": "ROLLBACK_IN_PROGRESS",
+            "ResourceStatusReason": "The following resource(s) failed to create: [UdaBucket]. Rollback requested by user."
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:781430106937:stack/udatest/fde229a0-5018-11f0-aa8d-0affd52ea213",
+            "EventId": "UdaBucket-CREATE_FAILED-2025-06-23T10:03:53.039Z",
+            "StackName": "udatest",
+            "LogicalResourceId": "UdaBucket",
+            "PhysicalResourceId": "uda-iye-bucket",
+            "ResourceType": "AWS::S3::Bucket",
+            "Timestamp": "2025-06-23T10:03:53.039000+00:00",
+            "ResourceStatus": "CREATE_FAILED",
+            "ResourceStatusReason": "Resource handler returned message: \"The specified bucket does not exist (Service: S3, Status Code: 404, Request ID: 5APRQQA6ECMSASQJ, Extended Request ID: dbjvKOPa35b+O/jiZP8V8eL4pkS9kdo8U5ihms8uFQ+6PxKMcLw8nc09Vrn29FY5aVV26OTDwH8=) (SDK Attempt Count: 1)\" (RequestToken: 28b9c19b-96b8-d1fb-8845-639b49b1b496, HandlerErrorCode: NotFound)",
+            "ResourceProperties": "{\"BucketName\":\"uda-iye-bucket\",\"WebsiteConfiguration\":{\"IndexDocument\":\"index.html\",\"ErrorDocument\":\"error.html\"}}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:781430106937:stack/udatest/fde229a0-5018-11f0-aa8d-0affd52ea213",
+            "EventId": "UdaBucket-CREATE_IN_PROGRESS-2025-06-23T10:01:15.252Z",
+            "StackName": "udatest",
+            "LogicalResourceId": "UdaBucket",
+            "PhysicalResourceId": "uda-iye-bucket",
+            "ResourceType": "AWS::S3::Bucket",
+            "Timestamp": "2025-06-23T10:01:15.252000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceStatusReason": "Resource creation Initiated",
+            "ResourceProperties": "{\"BucketName\":\"uda-iye-bucket\",\"WebsiteConfiguration\":{\"IndexDocument\":\"index.html\",\"ErrorDocument\":\"error.html\"}}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:781430106937:stack/udatest/fde229a0-5018-11f0-aa8d-0affd52ea213",
+            "EventId": "UdaBucket-CREATE_IN_PROGRESS-2025-06-23T10:01:14.025Z",
+            "StackName": "udatest",
+            "LogicalResourceId": "UdaBucket",
+            "PhysicalResourceId": "",
+            "ResourceType": "AWS::S3::Bucket",
+            "Timestamp": "2025-06-23T10:01:14.025000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceProperties": "{\"BucketName\":\"uda-iye-bucket\",\"WebsiteConfiguration\":{\"IndexDocument\":\"index.html\",\"ErrorDocument\":\"error.html\"}}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:781430106937:stack/udatest/fde229a0-5018-11f0-aa8d-0affd52ea213",
+            "EventId": "fde536e0-5018-11f0-aa8d-0affd52ea213",
+            "StackName": "udatest",
+            "LogicalResourceId": "udatest",
+            "PhysicalResourceId": "arn:aws:cloudformation:us-east-1:781430106937:stack/udatest/fde229a0-5018-11f0-aa8d-0affd52ea213",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2025-06-23T10:01:11.805000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceStatusReason": "User Initiated"
+        }
+    ]
+}
